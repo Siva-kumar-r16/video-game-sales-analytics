@@ -1,78 +1,109 @@
-Video Game Sales Analytics Dashboard
+# 🎮 Video Game Sales Analytics
 
-Video Game Sales Analytics (Project Greenlight) is a comprehensive business intelligence tool designed to analyze historical video game sales data and forecast future market trends. Built with Python, this application features a professional Tkinter Executive Dashboard that serves as a central hub for five distinct analytical modules, ranging from geospatial analysis to AI-driven predictions.
+A Python-based data analytics project that explores global video game sales using data analysis and visualization techniques. The project provides insights into sales trends, platform performance, genre popularity, and publisher statistics.
 
-KEY FEATURES
+---
 
-Executive Dashboard: A modern, grid-based GUI (main.py) that acts as the central command center, offering easy access to all analysis modules with a "Business Executive" aesthetic.
+## ✨ Features
 
-Regional Analyst (Heatmap): Visualizes global sales distribution across North America, Europe, and Japan using GeoPandas. Generates a split-screen view with a dot-density map and a detailed breakdown table by genre.
+- Sales trend analysis
+- Genre-wise analysis
+- Platform comparison
+- Publisher performance
+- Regional sales analysis
+- Data visualization
+- Statistical insights
 
-Risk Manager (Scatter Plot): Analyzes the correlation between Critic Scores and Global Sales to determine the "Quality vs. Revenue" payoff. Identifies high-risk/high-reward genres versus safe bets.
+---
 
-Lifecycle Analyst (Line Graph): Splits console history into 4 Chronological Eras (Classics, Transition, Modern, Next-Gen). Visualizes the rise and fall of console sales lifecycles over time on a single screen.
+## 🛠️ Technologies Used
 
-Corporate Strategist (Bar Charts): A 4-part breakdown of Top 20 Publishers. Metrics include Efficiency (Avg Revenue/Game), Total Market Share, Critical Acclaim, and Release Volume.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-Future AI Predictor (Machine Learning): Uses Linear Regression (scikit-learn) to train on historical data (2010+). Forecasts future trends for Consoles, Games, Genres, and Publishers.
+---
 
-TECHNOLOGIES USED
+## 📂 Project Structure
 
-Language: Python 3.x
+```text
+video-game-sales-analytics/
+│
+├── data/
+├── notebooks/
+├── images/
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── LICENSE
+```
 
-GUI: Tkinter (Standard Python Interface)
+---
 
-Data Analysis: Pandas, NumPy
+## 🚀 Getting Started
 
-Visualization: Matplotlib, Seaborn
+### Clone the repository
 
-Geospatial: GeoPandas, Shapely
+```bash
+git clone https://github.com/Siva-kumar-r16/video-game-sales-analytics.git
+```
 
-Machine Learning: Scikit-Learn
+### Navigate to the project
 
-INSTALLATION GUIDE
+```bash
+cd video-game-sales-analytics
+```
 
-Follow these steps to set up the project locally.
+### Install dependencies
 
-Clone the Repository git clone https://github.com/Cskskjaddu/video-game-sales-analytics cd video-game-sales-analytics
-
-Install Dependencies This project requires several external libraries. You can install them all at once using pip.
-
+```bash
 pip install -r requirements.txt
+```
 
-(Note: If you are on Windows and have trouble installing geopandas, you may need to install standard binary wheels manually or use conda.)
+### Run the project
 
-Verify Data Ensure the dataset file "Video_Games_Sales_as_at_22_Dec_2016.csv" is located in the root directory of the project.
+Open the Jupyter Notebook and run all cells.
 
-USAGE
+---
 
-To launch the Executive Dashboard, simply run the main script:
+## 📊 Analysis Includes
 
-python main.py
+- Global sales trends
+- Genre-wise sales
+- Platform performance
+- Publisher comparison
+- Regional sales distribution
+- Top-selling games
 
-The Dashboard window will open.
+---
 
-Click on any module (e.g., "1. Regional Analyst") to run that specific analysis.
+## 🔮 Future Enhancements
 
-The visualization window will pop up (maximized) for detailed viewing.
+- Interactive dashboard
+- Machine learning-based sales prediction
+- Advanced visualizations
+- Exportable reports
 
-Close the visualization window to return to the dashboard.
+---
 
-PROJECT STRUCTURE
+## 🤝 Contributing
 
-main.py: The entry point. Initializes the Tkinter GUI and dashboard logic.
+Contributions are welcome.
 
-heat.py: Handles geospatial data and generates the world map heatmap.
+1. Fork the repository.
+2. Create a new branch.
+3. Commit your changes.
+4. Push the branch.
+5. Open a Pull Request.
 
-scatter.py: Generates scatter plots for Risk vs. Reward analysis.
+---
 
-line.py: Generates chronological line graphs for console lifecycles.
+## 👨‍💻 Author
 
-bar.py: Generates bar charts for publisher statistics.
+**Sivakumar R**
 
-ml_predict.py: Runs the Machine Learning model to forecast future trends.
-
-requirements.txt: List of Python dependencies.
-
-
-Video_Games_Sales_as_at_22_Dec_2016.csv: The dataset.
+GitHub: https://github.com/Siva-kumar-r16
+Portfolio: https://siva-kumar-r16.github.io/netflix-clone/
