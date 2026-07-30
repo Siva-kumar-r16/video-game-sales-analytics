@@ -103,7 +103,7 @@ Contributions are welcome.
 
 ## 👨‍💻 Author
 
-**Sivakumar R**
+**Siva kumar R**
 
 GitHub: https://github.com/Siva-kumar-r16
 Portfolio: https://siva-kumar-r16.github.io/netflix-clone/
